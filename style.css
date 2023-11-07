@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter&family=Outfit:wght@400;700&family=Prata&display=swap');
+.back{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.1));
+/*    background-color:  hsla(256, 72%, 46%, 1);*/
+ 
+}
+.shadow-lg{
+    border-radius: 20px;
+}
+.box2{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+}
+.b1{
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+.b4{
+    background-color: hsla(221, 100%, 96%,1.0);
+}
+.b2{
+    background-color: hsla(39, 100%, 56%,0.1);
+}
+.b3{
+    background-color: hsla(166, 100%, 37%,0.1);
+}
+.b5{
+    background-color: hsla(240, 60%, 2%, 0.8);
+}
+.b1 b{
+    color:hsl(0, 100%, 67%);
+}
+.b2 b{
+    color: hsl(39, 100%, 56%);
+}
+.b3 b{
+    color:  hsl(166, 100%, 37%);
+}
+.b4 b{
+    color:  hsl(234, 85%, 45%);
+}
+@media only screen and (max-width: 600px) {
+    .back{
+        overflow: hidden;
+        border-radius: 0px 0px 40px 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+    }
+    .mainbox{
+        /* background-color: aqua; */
+        overflow:hidden;
+        border-top-right-radius:0px;
+        border-top-left-radius: 0px;
+    }
+    .conta{
+        margin: 20px;
+
+    }
+}
